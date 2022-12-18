@@ -1,0 +1,218 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    /* background-image:url("images/pattern-background-desktop.svg");
+    background-repeat:no-repeat;
+    background-size: cover; */
+}
+
+
+.first__svg {
+
+    position: absolute;
+    width: 100%;
+    top: -120px;
+    left: 0;
+
+    z-index: -1;
+}
+
+.first_container {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+
+    width: 450px;
+    /* height: 600px; */
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.hero {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #1F2E55;
+}
+
+p {
+    text-align: center;
+    margin: 17px 48px 20px;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #717FA6;
+}
+
+.music {
+    padding: 25px 24px;
+    margin-left: 48px;
+    margin-right: 48px;
+    border-radius: 11px;
+    background: #F7F9FF;
+
+    align-items: center;
+    display: flex;
+}
+
+.music__items {
+    margin-left: 20px;
+}
+
+.plan {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #1F2E55;
+}
+
+.year {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    margin-top: 6px;
+
+    color: #717FA6;
+}
+
+.Change {
+    margin-left: 68.81px;
+}
+
+.Change:hover {
+    text-decoration: none;
+    color: #766CF1;
+    transition: all 0.5s;
+}
+
+.bottom {
+    margin: 32px 48px;
+    padding: 15px 102px;
+    border-radius: 11px;
+
+    cursor: pointer;
+
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    background-color: #382AE1;
+
+}
+
+.bottom:hover {
+    background: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    transition: all 0.5s;
+}
+
+.Payment {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #717FA6;
+}
+
+.footer:hover {
+    color: #1F2E55;
+    transition: all 0.5s;
+}
+
+
+/* **************   responsive   ************** */
+
+@media(max-width:375px){
+    .first__svg{
+        width: 634px;
+    }
+
+    .container{
+        width: 327px; ;
+    }
+    h1{
+        font-size: 22px;
+        line-height: 29px;
+
+        margin-top:32px;
+    }
+    p{
+        margin: 16px 32px 24px;
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+    .music{
+        padding: 16px;
+        margin:24px;
+    }
+    .plan{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .year{
+        font-size: 14px;
+        line-height: 19px;
+
+        margin-top: 3px;
+    }
+    .Change{
+        font-size: 13px;
+        line-height: 17px;
+
+        margin-left: 42.34px;
+    }
+    .bottom{
+        margin: 24px;
+        padding: 15px 64px;
+    }
+    .footer{
+        margin-bottom: 32px;
+    }
+
+}
